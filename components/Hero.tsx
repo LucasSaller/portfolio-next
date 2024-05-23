@@ -32,7 +32,13 @@ const Hero = () => {
             words="Transforming concepts into Seamless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi I&apos;am Lucas, a Next.js Developer based in Argentina.
+            Hi I&apos;am Lucas, a Next.js Developer based in Argentina , and I
+            like to craft solid and scalable frontend products with great user
+            experiences. I&apos;m a young and enthusiastic software developer
+            passionate about learning new technologies and the correct use of
+            them. I enjoy teamwork, especially when I can improve my skills
+            learning or teaching when working. I am always working to develop
+            high quality products.
           </p>
           <a href="#about">
             <MagicButton
