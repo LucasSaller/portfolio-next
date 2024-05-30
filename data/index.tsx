@@ -1,8 +1,20 @@
+import {
+  FaHome,
+  FaInfoCircle,
+  FaProjectDiagram,
+  FaEnvelope,
+} from "react-icons/fa";
+
+export const HomeIcon: JSX.Element = <FaHome />;
+export const AboutIcon: JSX.Element = <FaInfoCircle />;
+export const ProjectsIcon: JSX.Element = <FaProjectDiagram />;
+export const ContactIcon: JSX.Element = <FaEnvelope />;
+
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "#home", icon: HomeIcon },
+  { name: "About", link: "#about", icon: AboutIcon },
+  { name: "Projects", link: "#projects", icon: ProjectsIcon },
+  { name: "Contact", link: "#contact", icon: ContactIcon },
 ];
 
 export const gridItems = [
@@ -72,35 +84,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Netflix Trailer app",
+    des: "This application allows users to view trailers for trending movies available on Netflix. It offers an intuitive and user-friendly interface, enabling seamless browsing and quick access to the latest trailers. Designed to enhance the movie-watching experience, the app helps users discover new films and stay updated with upcoming releases on Netflix.",
+    img: "/netflix-clone.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://netflix-trailer-app-three.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Sum Reservations",
+    des: "I made this app to make it easier and more accessible to book the communal space in the building where I live. Reservations were previously managed on a paper sheet, and the idea was to 'modernize' and streamline the booking process..",
+    img: "/sum-reservations.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://sum-echeverria22.netlify.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Task list",
+    des: "Stay organized and boost productivity with my user-friendly task management app. Effortlessly create, manage, and conquer your daily to-do lists for ultimate success.",
+    img: "/task-list.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://taskslist-saller.netlify.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Weather App",
+    des: "I made this app as part of a job interview, and it allows you to check the weather anywhere in the world! It features a user-friendly interface and provides real-time weather updates, making it a handy tool for planning your day or travel.",
+    img: "/weather-app.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://weather-challenge22.netlify.app/",
   },
 ];
 
