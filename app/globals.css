@@ -83,3 +83,6 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+.section {
+  scroll-margin-top: 100px;
+}
