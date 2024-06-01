@@ -87,15 +87,23 @@ export const projects = [
     title: "Netflix Trailer app",
     des: "This application allows users to view trailers for trending movies available on Netflix. It offers an intuitive and user-friendly interface, enabling seamless browsing and quick access to the latest trailers. Designed to enhance the movie-watching experience, the app helps users discover new films and stay updated with upcoming releases on Netflix.",
     img: "/netflix-clone.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://netflix-trailer-app-three.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Aerolab Challenge",
+    des: " Easily explore and redeem items using accumulated points with our intuitive app featuring transparent pricing, instant redemption, and secure transactions.",
+    img: "/aerolab-challenge.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://aerolab-challenge.vercel.app/",
   },
   {
     id: 2,
     title: "Sum Reservations",
     des: "I made this app to make it easier and more accessible to book the communal space in the building where I live. Reservations were previously managed on a paper sheet, and the idea was to 'modernize' and streamline the booking process..",
     img: "/sum-reservations.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://sum-echeverria22.netlify.app/",
   },
   {
@@ -103,7 +111,7 @@ export const projects = [
     title: "Task list",
     des: "Stay organized and boost productivity with my user-friendly task management app. Effortlessly create, manage, and conquer your daily to-do lists for ultimate success.",
     img: "/task-list.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://taskslist-saller.netlify.app/",
   },
   {
@@ -111,7 +119,7 @@ export const projects = [
     title: "Weather App",
     des: "I made this app as part of a job interview, and it allows you to check the weather anywhere in the world! It features a user-friendly interface and provides real-time weather updates, making it a handy tool for planning your day or travel.",
     img: "/weather-app.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://weather-challenge22.netlify.app/",
   },
 ];
