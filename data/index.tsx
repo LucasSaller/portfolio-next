@@ -141,7 +141,7 @@ export const projects = [
     des: "Your favorite anime, all in one place.",
     img: "/anime-screen.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "#",
+    link: "https://anime-vault-onichan.vercel.app/",
   },
 ];
 
