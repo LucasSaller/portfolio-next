@@ -135,6 +135,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://weather-challenge22.netlify.app/",
   },
+  {
+    id: 5,
+    title: "Anime Vault",
+    des: "Your favorite anime, all in one place.",
+    img: "/anime-screen.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "#",
+  },
 ];
 
 export const testimonials = [
