@@ -22,7 +22,7 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[30vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -32,7 +32,7 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-4 md:min-h-[20vh] md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -50,7 +50,20 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: (
+      <>
+        Studying Software Engineering at{" "}
+        <span className="text-purple hover:underline">
+          <a
+            href="https://www.frba.utn.edu.ar/"
+            target="_blan"
+            rel="noreferrer"
+          >
+            UTN- FRBA
+          </a>
+        </span>
+      </>
+    ),
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -61,8 +74,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently working as a Wordpress Developer",
+    description: "2021 | Present",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -226,15 +239,18 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     alt: "github",
+    link: "https://github.com/LucasSaller",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-    alt: "twitter",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   alt: "twitter",
+  //   link: "",
+  // },
   {
     id: 3,
     img: "/link.svg",
     alt: "linkedin",
+    link: "",
   },
 ];
