@@ -10,11 +10,11 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 lg:mt-40">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-20 md:mt-24  xl:mt-48">
         {projects.map(({ title, id, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="lg:min-h-[32.5rem] lg:h-[38rem] h-[24rem] items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[40.5rem] lg:h-[38rem] h-[24rem] items-center justify-center sm:w-96 w-[80vw]"
           >
             <PinContainer title={title} href={link}>
               <div className="relative  flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
